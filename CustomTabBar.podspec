@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
   s.author                = { "jj1100x" => "junktym123@gmail.com" }
   s.ios.deployment_target = "9.0"
-  s.source                = { :git => "https://github.com/jj1100x/CustomTabBar.git", :tag => "{s.version}" }
+  s.source                = { :git => "https://github.com/jj1100x/CustomTabBar.git", :tag => s.version.to_s }
   s.requires_arc = true
   s.source_files          = "CustomTabBar/*.{h,swift}"
 end
