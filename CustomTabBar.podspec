@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "CustomTabBar"
-  s.version      = "0.2"
+  s.version      = "0.2.1"
   s.summary      = "Create custom TabBar"
   s.homepage     = "https://github.com/jj1100x/CustomTabBar"
   s.license               = { :type => 'MIT', :file => 'LICENSE' }
